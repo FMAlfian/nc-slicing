@@ -250,7 +250,7 @@ Tags
 Responsive
 ===========================*/
 
-@media(max-width:992px) {
+/* @media(max-width:992px) {
     .database-section {
         margin-top: 3rem;
     }
@@ -307,4 +307,144 @@ Responsive
         border-bottom: 1px solid #E5E5E5;
         background: #FAFAFA;
     }
+} */
+
+/* ==========================================================
+   TABLET (<992px)
+========================================================== */
+
+@media (max-width:991.98px){
+
+    .database-container{
+        padding:80px 0 50px;
+    }
+
+    .banner-container{
+        padding:60px 0;
+    }
+
+    .section-heading h2{
+        font-size:38px;
+    }
+
+    .database-banner{
+        padding:50px;
+        text-align:center;
+    }
+
+    .database-banner .col-lg-6:first-child{
+        margin-bottom:40px;
+    }
+
+    .database-banner h3{
+        font-size:34px;
+    }
+
+    .database-image{
+        margin-top:20px;
+    }
+
+}
+
+
+/* ==========================================================
+   MOBILE (<768px)
+========================================================== */
+
+@media (max-width:767.98px){
+
+    .database-container{
+        padding:60px 20px 40px;
+    }
+
+    .banner-container{
+        padding:40px 20px;
+    }
+
+    .section-heading h2{
+        font-size:30px;
+        line-height:1.3;
+        margin:18px 0;
+    }
+
+    .section-heading p{
+        font-size:16px;
+        line-height:1.7;
+    }
+
+    .database-banner{
+        padding:30px 24px;
+        border-radius:24px;
+        text-align:center;
+    }
+
+    .database-banner h3{
+        font-size:26px;
+        line-height:1.35;
+    }
+
+    .database-banner p{
+        font-size:15px;
+        margin:20px 0 28px;
+    }
+
+    .database-image{
+        margin-top:30px;
+    }
+
+    .database-image img{
+        max-width:100%;
+    }
+
+    .btn-primary-custom{
+        width:100%;
+        justify-content:center;
+        padding:15px 20px;
+    }
+
+    .banner-section .row{
+        margin-top:8px !important;
+    }
+
+    .banner-section .col-lg-4{
+        margin-bottom:12px;
+    }
+
+}
+
+
+/* ==========================================================
+   SMALL MOBILE (<576px)
+========================================================== */
+
+@media (max-width:575.98px){
+
+    .database-container{
+        padding:50px 16px 35px;
+    }
+
+    .banner-container{
+        padding:32px 16px;
+    }
+
+    .section-heading h2{
+        font-size:26px;
+    }
+
+    .database-banner{
+        padding:24px 18px;
+    }
+
+    .database-banner h3{
+        font-size:22px;
+    }
+
+    .database-banner p{
+        font-size:14px;
+    }
+
+    .btn-primary-custom{
+        font-size:15px;
+    }
+
 }
