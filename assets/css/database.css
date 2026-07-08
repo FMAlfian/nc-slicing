@@ -39,6 +39,15 @@ Heading
 }
 
 .section-badge {
+    color: var(--solid-primary, #4B12C1);
+    text-align: center;    
+    font-family: "Mona Sans";
+    font-size: var(--label-2);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.16px;
+
     display: inline-flex;    
     padding: 8px 14px;
     justify-content: center;
@@ -269,7 +278,7 @@ Mobile
 
     .database-container {
         display: flex;
-        height: 625px !important;
+        height: 675px !important;
         flex-direction: column;
         align-items: center;
         align-content: center;
